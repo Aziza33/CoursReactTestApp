@@ -15,6 +15,18 @@
   width: 100px;
 }
 
+.btnCallback {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100px;
+  background-color: black;
+  color: white;
+  margin: 2%;
+}
 .btn-success {
   background-color: #28a745;
   color: #fff;
@@ -46,7 +58,7 @@
     transform: rotate(360deg);
   }
 }
-
+/* 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
@@ -59,4 +71,7 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
+
+@import "flowbite/src/themes/default";
+@import "tailwindcss";
