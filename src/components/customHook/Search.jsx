@@ -13,4 +13,7 @@ const Search = ({searchStr, searchHandler}) => {
   )
 }
 
+
+
 export default Search
+// export {msgDisplay}
